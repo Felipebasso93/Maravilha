@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+
+
+    <div>
+
+        <h2>Relatório Estoque</h2>
+        <button onclick="exibirDados()">Gerar Relatório</button>
+
+
+        </br>
+        </br>
+
+        <h2> Dados do produto:</h2>
+        <div id="DadosProduto">
+
+        </div>
+
+        <script>
+
+            var produtos = [
+                { codigo: 1, descricao: "Produto A", quantidade: 10 },
+                { codigo: 2, descricao: "Produto B", quantidade: 5 },
+                { codigo: 3, descricao: "Produto C", quantidade: 8 },
+
+            ];
+
+
+            function exibirDados() {
+                var codigo = document.getElementById("DadosProduto").value;
+
+                DadosProduto.innerHTML =
+                    "EAN" + (produtos[i].descricao) + " - " +
+                    "Descrição:" + (produtos[i].descricao) + " - " +
+                    "QTD: " + (produtos[i].quantidade);
+            };
+
+            for (let i = 0; i < produtos.length; i++) 
+            
+            produtos=produtos[i]
+            {
+                const element = array[0];
+
+            }
+
+
+            
+            </script>
+
+
+
+
+    
+
+
+
+
+</body >
+
+</html >
